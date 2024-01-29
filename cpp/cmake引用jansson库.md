@@ -1,3 +1,12 @@
+-+++
+-title = 'cmake引用jansson库'
+-date = 2024-01-09T14:51:43+08:00
+-summary = '在ubuntun系统上使用clion开发c程序, cmake如何引入jansson库'
+-categories=["c"]
+-tags= ["c", "json", "jansson", "cmake"]
+-draft = false
+-+++
+
 ### 描述
 
 在ubuntun系统上使用clion开发c程序, cmake如何引入jansson库.
