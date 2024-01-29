@@ -1,12 +1,11 @@
----
-title: viper监控文件变化出现两次事件
-description:
-published: true
-date: 2022-09-17T19:34:00
-tags:
-editor: markdown
-dateCreated: 2022-09-17T19:34:00Z
----
++++
+title = "viper监控文件变化出现两次事件"
+date = 2022-09-17T19:34:00+08:00
+categories = ["golang"]
+tags = ["viper", "golang"]
+draft = false
+summary = "监控配置文件变化，如果内容发生了修改，需要及时加载. 使用viper监控文件变化发现了, 对文件修改一次，会出发两次事件."
++++
 
 # 问题描述
 

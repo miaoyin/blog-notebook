@@ -1,3 +1,12 @@
++++
+title = "rabbitmq辣眼睛的忙等"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["rabbitmq", "golang", "machinery"]
+draft = false
+summary = "用golang做了一个分布式结构的系统, 消息服务器用了rabbitmq, 整体是基于machinery+rabbitmq形式的分布式任务系统。在做压力测试时，发现rabbitmq的cpu使用率飙升"
++++
+
 ### 背景
 
 用golang做了一个分布式结构的系统, 消息服务器用了rabbitmq。

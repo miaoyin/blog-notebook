@@ -1,3 +1,12 @@
++++
+title = "docker安装influxdb"
+date = 2022-07-25T11:40:00+08:00
+categories = ["docker"]
+tags = ["influxdb", "docker", "docker-compose"]
+draft = false
+summary = "influxdb的docker-compose如何配置"
++++
+
 influxdb的docker-compose如何配置
 
 1. 新建数据目录
