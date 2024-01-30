@@ -83,7 +83,6 @@ Host(`whoami.docker.localhost`)   # 发送http请求的Header中的Host改为who
 ```angular2html
 http://ip:port/whoami/     # 类似nginx的location
 ```
-}}}
 
 
 ### 问题列表
