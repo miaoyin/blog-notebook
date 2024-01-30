@@ -1,3 +1,12 @@
++++
+title = "golang如何正确关闭计时器"
+date = 2022-07-25T11:44:00+08:00
+categories = ["golang"]
+tags = ["golang"]
+draft = false
+summary = "go的官方库计时器, 有一个陷阱，ticker.Stop()如果不注意会导致协程无法关闭。"
++++
+
 ### 描述
 
 * go的官方库计时器, 有一个陷阱，ticker.Stop()如果不注意会导致协程无法关闭。
@@ -58,5 +67,7 @@ go WaitResponse(queueChan, time.Duration(60))
 queueChan <- "标记值xxx"
 ```
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

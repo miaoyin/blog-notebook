@@ -1,3 +1,12 @@
++++
+title = "go实现Event事件context版"
+date = 2022-07-25T11:50:00+08:00
+categories = ["golang"]
+tags = ["golang"]
+draft = false
+summary = "上一篇文章，写了go如何实现Event事件，有几个可以优化的地方."
++++
+
 ### 描述
 
 上一篇文章，写了go如何实现Event事件，有几个可以优化的地方.
@@ -86,5 +95,7 @@ func (e *Event) Reset(){
 }
 ```
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

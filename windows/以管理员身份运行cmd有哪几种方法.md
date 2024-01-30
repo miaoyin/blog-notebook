@@ -1,3 +1,12 @@
++++
+title = "以管理员身份运行cmd有哪几种方法"
+date = 2022-07-25T12:21:00+08:00
+summary = "除了右键以管理员身份运行，还有哪几种方法，能够以管理员身份启动cmd"
+categories = ["windows"]
+tags = ["windows", "cmd", "powershell"]
+draft = false
++++
+
 
 ### 描述
     

@@ -1,3 +1,12 @@
++++
+title = "redis.exceptions.InvalidResponse Protocol Error"
+date = 2022-07-25T12:12:00+08:00
+summary = "celery+redis实现异步任务，如果涉及到频繁的io调用，可能会出现错误redis.exceptions.InvalidResponse: Protocol Error"
+categories = ["python"]
+tags = ["python", "celery", "redis"]
+draft = false
++++
+
 ### 说明
 
 celery+redis实现异步任务，如果涉及到频繁的io调用，可能会出现错误redis.exceptions.InvalidResponse: Protocol Error
@@ -36,8 +45,7 @@ def read_response(self):
 使用evenetlet进行改造，解决socket问题
 
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
-                                                   
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

@@ -1,3 +1,12 @@
++++
+title = "nats批量publish最后一条疑似丢失"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "nats-server"]
+draft = false
+summary = "写了一个测试脚本，从数据读取一组数据，然后逐条publish到nats-server中, 确定每条都publish了, 有另外一个程序中subscribe订阅，在该程序发现最后一条一直没收到"
++++
+
 ### 问题描述
 
     写了一个测试脚本，从数据读取一组数据，然后逐条publish到nats-server中, 确定每条都publish了

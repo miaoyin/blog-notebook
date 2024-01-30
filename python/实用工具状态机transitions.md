@@ -1,3 +1,11 @@
++++
+title = "tomli支持数组混合类型"
+date = 2022-07-25T12:12:00+08:00
+summary = "状态机是一个非常实用的理论。在涉及到复杂的场景，建立状态机模型，能带来极大的方便。比如，网络连接、模型状态、业务逻辑。"
+categories = ["python"]
+tags = ["python", "transitions"]
+draft = false
++++
 
 ### 说明
 
@@ -123,8 +131,9 @@ machine.add_transition('work_out', 'hanging out', 'hungry')
 machine.add_transition('nap', '*', 'asleep')   # 从任意状态变为asleep
 ```
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)
+
 

@@ -1,3 +1,13 @@
++++
+title = "celery5.2.1以下版本任务调用多耗费1秒"
+date = 2022-07-25T12:12:00+08:00
+summary = "5.0.5版本celery存在一个缺陷, 调用任务耗时多用1秒"
+categories = ["python"]
+tags = ["python", "celery"]
+draft = false
++++
+
+
 ### 问题
 
     5.0.5版本celery存在一个缺陷, 调用任务耗时多用1秒

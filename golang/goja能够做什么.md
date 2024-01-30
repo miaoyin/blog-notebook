@@ -1,3 +1,12 @@
++++
+title = "goja能够做什么"
+date = 2022-07-25T11:40:00+08:00
+categories = ["golang"]
+tags = ["gin", "goja", "golang"]
+draft = false
+summary = "goja实现了ECMAScript 5.1(+)"
++++
+
 ### goja是什么
 
 goja实现了ECMAScript 5.1(+)

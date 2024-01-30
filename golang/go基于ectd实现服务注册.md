@@ -1,3 +1,12 @@
++++
+title = "go基于ectd实现服务注册"
+date = 2022-07-25T11:49:00+08:00
+categories = ["golang"]
+tags = ["golang", "etcd"]
+draft = false
+summary = "基于etcd实现go程序的服务注册，所看的学习资料均比较简单, 实际中要经过反复测试，自己写了一个先用着，有坑再填."
++++
+
 
 ### 描述
 

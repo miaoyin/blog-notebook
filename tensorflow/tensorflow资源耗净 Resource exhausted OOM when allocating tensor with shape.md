@@ -1,3 +1,13 @@
++++
+title = "tensorflow资源耗净 Resource exhausted OOM when allocating tensor with shape"
+date = 2022-07-25T12:19:00+08:00
+summary = "tensorflow跑训练集经常会遇到错误Resource exhausted: OOM when allocating tensor with shape[64,33,33,2048]"
+categories = ["tensorflow"]
+tags = ["tensorflow"]
+draft = false
++++
+
+
 ### 说明
 
 tensorflow跑训练集经常会遇到错误Resource exhausted: OOM when allocating tensor with shape[64,33,33,2048]
@@ -41,5 +51,5 @@ tensorflow在为张量shape[64,33,33,2048]分配gpu内存是发现资源不够�
 3. 改用大内存的显卡
 4. 增加显卡, 并行训练
 
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

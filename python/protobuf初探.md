@@ -1,3 +1,13 @@
++++
+title = "protobuf初探"
+date = 2022-07-25T12:12:00+08:00
+summary = "以前是通过grpc知道的protobuf，未尝试过，以为挺复杂，一直没怎么重视过。后来因为tensorflow的很多地方用到了protobuf，正好我又在研究消息传递，如何优化numpy传输。"
+categories = ["python"]
+tags = ["python", "protobuf"]
+draft = false
++++
+
+
 ### 起因
 
 以前是通过grpc知道的protobuf，未尝试过，以为挺复杂，一直没怎么重视过。

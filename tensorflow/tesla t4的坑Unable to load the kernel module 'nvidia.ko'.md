@@ -1,3 +1,12 @@
++++
+title = "tesla t4的坑Unable to load the kernel module 'nvidia.ko'"
+date = 2022-07-25T12:19:00+08:00
+summary = "安nvidia tesla T4显卡遇到的坑, 在ubuntu16.04上安装t4会遇到下面错误"
+categories = ["tensorflow"]
+tags = ["tensorflow", "tesla"]
+draft = false
++++
+
 ### 说明
 
 安nvidia tesla T4显卡遇到的坑, 在ubuntu16.04上安装t4会遇到下面错误
@@ -23,5 +32,5 @@ t4不支持普通服务器，更换成刀片服务器
 * 安装nvidia 2080Ti 驱动，如果忘记插显卡电源线，会提示同样错误
 
 
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

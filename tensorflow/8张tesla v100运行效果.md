@@ -1,5 +1,12 @@
-8张tesla v100运行效果
++++
+title = "8张tesla v100运行效果"
+date = 2022-07-25T12:19:00+08:00
+categories = ["tensortflow"]
+tags = ["tesla", "tensortflow"]
+draft = false
++++
 
+### 8张tesla v100运行效果
 
 ```
 root@ecs-5359:~# nvidia-smi 

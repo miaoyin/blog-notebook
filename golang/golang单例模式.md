@@ -1,3 +1,11 @@
++++
+title = "golang实现单例模式"
+date = 2022-07-25T11:44:00+08:00
+categories = ["golang"]
+tags = ["golang", "sync"]
+draft = false
+summary = "go已经提供了实现单例模式的工具sync.Once"
++++
 
 ### golang实现单例模式
 

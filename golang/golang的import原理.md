@@ -1,3 +1,13 @@
++++
+title = "golang的import原理"
+date = 2022-07-25T11:44:00+08:00
+categories = ["golang"]
+tags = ["golang"]
+draft = false
+summary = "import是个很重要的东西，golang是怎么import的"
++++
+
+
 ### 描述
 
 import是个很重要的东西，golang是怎么import的
@@ -58,7 +68,7 @@ java中import的是java文件中的class
 
 golang中import的是目录下的package
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

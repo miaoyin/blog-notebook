@@ -1,3 +1,11 @@
++++
+title = "influxdb遇到时间点存储不了"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "influxdb"]
+draft = false
+summary = "有一份mysql存储的历史数据，准备把它转为influxdb存储, 时间点用的是mysql表中记录的创建时间，创建时间是时许的。"
++++
 
 ### 问题描述
 

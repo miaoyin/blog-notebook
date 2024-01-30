@@ -2,7 +2,7 @@
 title = "docker安装influxdb"
 date = 2022-07-25T11:40:00+08:00
 categories = ["docker"]
-tags = ["influxdb", "docker", "docker-compose"]
+tags = ["influxdb", "docker", "docker-compose", "golang"]
 draft = false
 summary = "influxdb的docker-compose如何配置"
 +++

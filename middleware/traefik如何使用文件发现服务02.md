@@ -1,4 +1,11 @@
-traefik如何使用文件发现服务
++++
+title = "traefik如何使用文件发现服务02"
+date = 2023-05-15T17:59:00+08:00
+summary = "traefik如何使用配置文件发现服务？"
+categories = ["middleware"]
+tags = ["traefik", "docker-compose", "middleware"]
+draft = false
++++
 
 
 ### 问题

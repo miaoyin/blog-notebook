@@ -1,4 +1,11 @@
-
++++
+title = "全局gin对象如何在子模块中修改Logger"
+date = 2022-12-11T17:25:00+08:00
+categories = ["golang"]
+tags = ["golang", "gin"]
+draft = false
+summary = "gin是通过中间件写日志, 日志对象是中间件的闭包变量。在use加载中间件完成之后，无法修改日志对象。 该如何办呢？"
++++
 
 ### 说明
 
@@ -49,9 +56,6 @@ if gl, ok := gin.DefaultWriter.(*zapio.Writer);ok{
 
 
 [佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
-
 [净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
-
 [此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
-
 [印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

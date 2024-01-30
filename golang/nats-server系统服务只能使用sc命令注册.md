@@ -1,3 +1,13 @@
++++
+title = "nats-server系统服务只能使用sc命令注册"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "nats-server"]
+draft = false
+summary = "windows环境下nats-server注册成系统, 官方推荐是sc命令, 而我觉得sc命令台太麻烦"
++++
+
+
 ### 起因描述
 
 windows环境下nats-server注册成系统, 官方推荐是sc命令

@@ -1,3 +1,12 @@
++++
+title = "redis修改缓存限制client-output-buffer-limit"
+date = 2022-07-25T12:19:00+08:00
+summary = "celery异步调用，经常会传一些比较大的数据，调用比较多会经常出现连接被关闭"
+categories = ["tensorflow"]
+tags = ["tensorflow", "redis"]
+draft = false
++++
+
 
 # 描述
 

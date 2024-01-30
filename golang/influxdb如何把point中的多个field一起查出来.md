@@ -1,3 +1,12 @@
++++
+title = "influxdb如何把point中的多个field一起查出来"
+date = 2022-07-25T11:52:00+08:00
+categories = ["golang"]
+tags = ["golang", "influxdb"]
+draft = false
+summary = "influx查询包含了水平拆分、垂直拆分. 查询结果的每一条记录record，只对应一个field. 写入一个point时包含多个field, 查询时如何将这几个field一起查出来呢？"
++++
+
 ### 问题描述
 
     influx查询包含了水平拆分、垂直拆分. 查询结果的每一条记录record，只对应一个field

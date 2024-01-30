@@ -1,3 +1,11 @@
++++
+title = "deeplab使用deeplabv3_pascal_train_aug作为tf_initial_checkpoint报错"
+date = 2022-07-25T12:19:00+08:00
+summary = "tensorflow deeplab训练自己的数据集，指定初始化模型，会出现错误"
+categories = ["tensorflow"]
+tags = ["deeplab", "tensorflow"]
+draft = false
++++
 
 # 问题描述
 

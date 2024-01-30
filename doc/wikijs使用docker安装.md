@@ -1,3 +1,11 @@
++++
+title = "wikijs使用docker安装"
+date = 2022-07-25T11:40:00+08:00
+categories = ["docker"]
+tags = ["wikijs", "docker", "docker-compose"]
+draft = false
+summary = "wikijs文档有docker-compose安装说明, 实际中会遇到几个问题"
++++
 
 ### 描述
 

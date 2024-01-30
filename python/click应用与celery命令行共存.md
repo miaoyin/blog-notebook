@@ -1,3 +1,12 @@
++++
+title = "click应用与celery命令行共存"
+date = 2022-07-25T12:12:00+08:00
+summary = "通过click自定义命令行加载配置，然后调用脚本启动celery worker。click自定义命令行与celery命令行如何共存?"
+categories = ["python"]
+tags = ["python", "celery", "click"]
+draft = false
++++
+
 ### 描述
 
 通过click自定义命令行加载配置，然后调用脚本启动celery worker。click自定义命令行与celery命令行如何共存?

@@ -1,4 +1,11 @@
-traefik入门示例解析
++++
+title = "traefik入门示例解析01"
+date = 2023-05-15T16:46:00+08:00
+summary = "微服务架构产生了大量的服务, 借助etcd之类的注册中心，找服务还需要接入etcd，还是比较麻烦，有没有统一的网关入口？"
+categories = ["middleware"]
+tags = ["traefik", "docker-compose", "middleware"]
+draft = false
++++
 
 
 ### traefik是什么

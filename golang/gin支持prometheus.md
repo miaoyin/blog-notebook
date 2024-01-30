@@ -2,7 +2,7 @@
 title = "gin支持prometheus"
 date = 2022-08-03T15:25:00+08:00
 categories = ["golang"]
-tags = ["gin", "prometheus", "grafana", "metrics"]
+tags = ["gin", "prometheus", "grafana", "metrics", "golang"]
 draft = false
 summary = "influxdb的docker-compose如何配置"
 +++

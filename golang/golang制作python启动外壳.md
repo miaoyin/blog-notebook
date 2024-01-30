@@ -1,3 +1,12 @@
++++
+title = "golang制作python启动外壳"
+date = 2022-07-25T11:44:00+08:00
+categories = ["golang"]
+tags = ["golang", "windows", "pyinstaller"]
+draft = false
+summary = "pyhton程序在windows上运行, 如何双击启动？"
++++
+
 ### 描述
 
 pyhton程序在windows上运行, 如何双击启动？

@@ -1,3 +1,11 @@
++++
+title = "nats的安装docker方式"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "nats-server", "docker", "docker-compose"]
+draft = false
+summary = "docker-compose方式启动nats-server。nats的镜像非常小, docker-cpomse进行管理。下面是配置方式"
++++
 
 ### 描述
     docker-compose方式启动nats-server。nats的镜像非常小, docker-cpomse进行管理。下面是配置方式

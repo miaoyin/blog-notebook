@@ -1,3 +1,12 @@
++++
+title = "任务队列machinery用法"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "machinery"]
+draft = false
+summary = "go实现的基于消息中间件的异步任务队列, 下面是学习笔记"
++++
+
 ### 描述
 
 go实现的基于消息中间件的异步任务队列, 下面是学习笔记
@@ -127,5 +136,7 @@ fmt.Println(asyncResult.Get(time.Millisecond * 5))  //等待间隔，理论上�
 以上就是machinery的基本用法,与celery基本一样, 更详细内容参考官方文档
 
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

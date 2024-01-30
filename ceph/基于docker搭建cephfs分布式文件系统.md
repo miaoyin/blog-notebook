@@ -1,4 +1,11 @@
-ceph分布式文件系统环境搭建
++++
+title = "ceph分布式文件系统环境搭建"
+date = 2022-07-25T12:04:00+08:00
+categories = ["docker"]
+tags = ["ceph", "docker", "docker-compose"]
+draft = false
+summary = "wikijs文档有docker-compose安装说明, 实际中会遇到几个问题"
++++
 
 ### 目的 
 
@@ -193,5 +200,5 @@ df -h
 ceph-fuse                                 18G     0   18G    0% /root/abc1
 ```
 
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

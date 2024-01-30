@@ -1,3 +1,12 @@
++++
+title = "msgpack代替json防止丢失类型"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "msgpack"]
+draft = false
+summary = "开发了一个通信协议, 协议对数据类型比较敏感, 根据不同数据数据类型使用不同格式。golang的数据类型能够满足需求。"
++++
+
 ### 描述
 
 开发了一个通信协议, 协议对数据类型比较敏感, 根据不同数据数据类型使用不同格式。golang的数据类型能够满足需求。

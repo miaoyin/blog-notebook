@@ -1,3 +1,13 @@
++++
+title = "go和python解码msgpack不一致"
+date = 2022-07-25T11:49:00+08:00
+categories = ["golang"]
+tags = ["golang", "msgpack"]
+draft = false
+summary = "有一个消息字典类型, 使用go进行编码, 传入消息中间件。同时有一个python程序监听, 监听到消息之后进行解码, 遇到了编码问题"
++++
+
+
 ### 描述
 
     有一个消息字典类型, 使用go进行编码, 传入消息中间件。同时有一个python程序监听, 监听到消息之后进行解码, 遇到了编码问题

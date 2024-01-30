@@ -1,3 +1,12 @@
++++
+title = "openssh8.6默认不支持公钥ssh"
+date = 2022-07-25T12:12:00+08:00
+summary = "最近升级了自己的linux后, 更新gogs代码时，发现用不了了"
+categories = ["linux"]
+tags = ["gogs", "openssh"]
+draft = false
++++
+
 ### 起因
 
     最近升级了自己的linux后, 更新gogs代码时，发现用不了了
@@ -34,21 +43,11 @@ debug1: send_pubkey_test: no mutual signature algorithm
 
 
 ```bash
-sudo vim /etc/ssh/ssh_config
+sudo vim ~/.ssh/config
 
-#增加一条PubKeyAcceptedKeyTypes
-
- Host *
-    PubKeyAcceptedKeyTypes +ssh-rsa
-#   ForwardAgent no
-#   ForwardX11 no
-#   PasswordAuthentication yes
-#   HostbasedAuthentication no
-#   GSSAPIAuthentication no
-#   GSSAPIDelegateCredentials no
-#   GSSAPIKeyExchange no
-#   GSSAPITrustDNS no
-#   BatchMode no
+Host *
+    HostkeyAlgorithms +ssh-rsa
+    PubkeyAcceptedKeyTypes +ssh-rsa
 ```
 
 

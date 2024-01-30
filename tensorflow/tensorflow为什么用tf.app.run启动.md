@@ -1,3 +1,12 @@
++++
+title = "tensorflow为什么用tf.app.run启动"
+date = 2022-07-25T12:19:00+08:00
+summary = "tf.app.run的原理以及为什么?"
+categories = ["tensorflow"]
+tags = ["tensorflow"]
+draft = false
++++
+
 
 ### tf.app.run的原理以及为什么?
 
@@ -69,5 +78,5 @@ python test.py  --run_with_profiling
 2. 包一层性能分析模块
 
 
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

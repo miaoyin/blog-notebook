@@ -1,3 +1,12 @@
++++
+title = "gorm模型定义原理借鉴分析"
+date = 2022-07-25T11:44:00+08:00
+categories = ["golang"]
+tags = ["golang", "gorm"]
+draft = false
+summary = "python有元类概念，在定义db模型时，相当方便，极大简化代码. go中没有元类概念, gorm有模型定义，看看它怎么实现，能否借鉴"
++++
+
 ### 说明
 
 python有元类概念，在定义db模型时，相当方便，极大简化代码
@@ -54,7 +63,7 @@ func main() {
 4. gorm的模型定义，比较encoding/json简单，比较适合借鉴使用
 
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

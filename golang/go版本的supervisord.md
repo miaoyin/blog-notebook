@@ -1,7 +1,15 @@
++++
+title = "go版本的supervisord"
+date = 2022-07-25T11:49:00+08:00
+categories = ["golang"]
+tags = ["golang", "supervisord"]
+draft = false
+summary = "python版本的supervisord, 在linux、windows系统中离线安装都不怎么方便.  是否有go版本的呢?"
++++
 
 ### 描述
 
-python版本的supervisrod, 在linux、windows系统中离线安装都不怎么方便.  是否有go版本的呢?
+python版本的supervisord, 在linux、windows系统中离线安装都不怎么方便.  是否有go版本的呢?
 
 
 ## github地址

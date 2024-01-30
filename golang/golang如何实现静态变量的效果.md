@@ -1,3 +1,12 @@
++++
+title = "golang如何实现静态变量的效果.md"
+date = 2022-07-25T11:40:00+08:00
+categories = ["golang"]
+tags = ["golang"]
+draft = false
+summary = "go的结构和方法接收者, 可以模拟类的概念, 然而go不支持静态变量"
++++
+
 ### 说明
 
 go的结构和方法接收者, 可以模拟类的概念, 然而go不支持静态变量
@@ -74,7 +83,7 @@ func FormatCode(f VarDecriptor) int {
 //使用时通过FormatCode，传入上面的VarBinary，就可以获取常量
 ```
 
-[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://doc.sxjy360.top/book/佛說大乘無量壽莊嚴清淨平等覺經(難字注音).pdf)
-[净土大经科注2014-doc](http://doc.sxjy360.top/book/净土大经科注2014-doc.zip)
-[此生必看的科学实验-水知道答案](http://v.youku.com/v_show/id_XMjgzMzcwNDk4OA)
-[印光大师十念法（胡小林主讲第1集）](http://v.youku.com/v_show/id_XMzUwMzc4NzY4NA)
+[佛說大乘無量壽莊嚴清淨平等覺經pdf](http://www.sxjy360.top/page-download/)
+[净土大经科注2014-doc](http://www.sxjy360.top/page-download/)
+[此生必看的科学实验-水知道答案](http://www.sxjy360.top/page-download/)
+[印光大师十念法（胡小林主讲第1集）](http://www.sxjy360.top/page-download/)

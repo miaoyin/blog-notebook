@@ -1,3 +1,13 @@
++++
+title = "zap日志写入通道被覆盖"
+date = 2022-07-25T12:03:00+08:00
+categories = ["golang"]
+tags = ["golang", "zap"]
+draft = false
+summary = "实现了一个io.Writer接口，允许zap日志写入，传递给界面，出现了日志被覆盖、重复的情况。"
++++
+
+
 ### 描述
 
 实现了一个io.Writer接口，允许zap日志写入，传递给界面，出现了日志被覆盖、重复的情况。

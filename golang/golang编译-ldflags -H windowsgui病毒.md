@@ -1,3 +1,12 @@
++++
+title = "golang编译-ldflags -H windowsgui病毒"
+date = 2022-07-25T11:40:00+08:00
+categories = ["golang"]
+tags = ["golang"]
+draft = false
+summary = "使用walk为程序做了一个windows界面, cmd窗口需要隐藏. 结果exe程序被杀毒软件认为是病毒"
++++
+
 ### 介绍
 
     使用walk为程序做了一个windows界面, cmd窗口需要隐藏。使用了 go build -ldflags="-H windowsgui"
